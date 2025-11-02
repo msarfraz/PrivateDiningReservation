@@ -1,0 +1,20 @@
+POST
+/restaurants/searchRestaurants
+{
+"latitude": 145.012627,
+"longitude": -37.885883,
+"requestedTime": "2025-11-01T03:51:00",
+"partySize": 2,
+"searchDistance": 10
+}
+
+POST
+/reservations/
+{
+"restaurantId": 1,
+"roomId": 1,
+"userId": "msarfraz",
+"bookingStartTime": "2025-11-02T11:15:00",
+"bookingEndTime": "2025-11-02T11:45:00",
+"persons": 2
+}
